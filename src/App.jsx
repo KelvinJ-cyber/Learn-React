@@ -6,6 +6,10 @@ import CoreConcept from "./components/CoreConcept.jsx";
 import TabButton from "./components/TabButton.jsx";
 import { EXAMPLES } from "./data.js";
 
+
+// ? This is the main application component that renders the header, core concepts, and examples sections.
+ 
+
 function App() {
   const [selectedContent, setSelectedContent] = useState("components");
 
